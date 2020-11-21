@@ -1,4 +1,6 @@
 let workDay = {
+  "6 AM": "",
+  "7 AM": "",
   "8 AM": "",
   "9 AM": "",
   "10 AM": "",
@@ -7,8 +9,6 @@ let workDay = {
   "1 PM": "",
   "2 PM": "",
   "3 PM": "",
-  "4 PM": "",
-  "5 PM": "",
 };
 
 $(document).ready(function(){
@@ -48,16 +48,16 @@ $("button").click(function() {
 
 function hourNumberFromHourString(hourString) {
   switch(hourString) {
-    case "8 AM": return 8;
-    case "9 AM": return 9;
-    case "10 AM": return 10;
-    case "11 AM": return 11;
-    case "12 PM": return 12;
-    case "1 PM": return 13;
-    case "2 PM": return 14;
-    case "3 PM": return 15;
-    case "4 PM": return 16;
-    case "5 PM": return 17;
+    case "6 AM": return 8;
+    case "7 AM": return 9;
+    case "8 AM": return 10;
+    case "9 AM": return 11;
+    case "10 AM": return 12;
+    case "11 AM": return 13;
+    case "12 PM": return 14;
+    case "1 PM": return 15;
+    case "2 PM": return 16;
+    case "3 PM": return 17;
   }
 }
 
